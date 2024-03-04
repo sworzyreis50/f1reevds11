@@ -18,11 +18,11 @@ jobs:
 
         Invoke-WebRequest https://localtonet.com/download/win-64.zip -OutFile localtonet.zip
 
-        Invoke-WebRequest https://raw.githubusercontent.com/ShiftyTR/FreeVDSServer/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/ShiftyTR/freevds/main/start.bat -OutFile start.bat
 
-        Invoke-WebRequest https://raw.githubusercontent.com/ShiftyTR/FreeVDSServer/main/wallpaper.jpg -OutFile wallpaper.jpg
+        Invoke-WebRequest https://raw.githubusercontent.com/ShiftyTR/freevds/main/wallpaper.jpg -OutFile wallpaper.jpg
 
-        Invoke-WebRequest https://raw.githubusercontent.com/ShiftyTR/FreeVDSServer/main/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/ShiftyTR/freevds/main/wallpaper.bat -OutFile wallpaper.bat
 
     - name: Extracting Localtonet Files.
 
